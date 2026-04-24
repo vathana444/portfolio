@@ -1,0 +1,116 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="980" fill="#F5F8FF"/>
+  <rect x="40" y="40" width="1520" height="900" rx="28" fill="#FFFFFF" stroke="#D7E3FB" stroke-width="4"/>
+
+  <text x="86" y="96" fill="#1D3E8A" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Portfolio App Wireframe + Connections</text>
+  <text x="86" y="132" fill="#63789C" font-family="Segoe UI, Arial, sans-serif" font-size="18">Component layout from App.jsx and data flow from portfolioData.js</text>
+
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12V0Z" fill="#4B6FD6"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12V0Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <rect x="80" y="180" width="310" height="680" rx="24" fill="#EFF5FF" stroke="#C8D8F8" stroke-width="3"/>
+  <text x="106" y="228" fill="#1F3562" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Data Source</text>
+  <text x="106" y="260" fill="#4A648C" font-family="Segoe UI, Arial, sans-serif" font-size="18">src/data/portfolioData.js</text>
+
+  <rect x="106" y="290" width="258" height="74" rx="16" fill="#FFFFFF" stroke="#D9E5FB" stroke-width="2"/>
+  <text x="128" y="334" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">profile</text>
+  <text x="128" y="356" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="16">name, role, summary, email</text>
+
+  <rect x="106" y="390" width="258" height="74" rx="16" fill="#FFFFFF" stroke="#D9E5FB" stroke-width="2"/>
+  <text x="128" y="434" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">stats</text>
+  <text x="128" y="456" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="16">cards for About section</text>
+
+  <rect x="106" y="490" width="258" height="74" rx="16" fill="#FFFFFF" stroke="#D9E5FB" stroke-width="2"/>
+  <text x="128" y="534" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">projects</text>
+  <text x="128" y="556" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="16">name, description, stack, theme</text>
+
+  <rect x="106" y="590" width="258" height="74" rx="16" fill="#FFFFFF" stroke="#D9E5FB" stroke-width="2"/>
+  <text x="128" y="634" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">skills</text>
+  <text x="128" y="656" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="16">skill cards list</text>
+
+  <rect x="106" y="690" width="258" height="74" rx="16" fill="#FFFFFF" stroke="#D9E5FB" stroke-width="2"/>
+  <text x="128" y="734" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">contacts</text>
+  <text x="128" y="756" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="16">links for contact section</text>
+
+  <rect x="470" y="180" width="1040" height="680" rx="24" fill="#FAFCFF" stroke="#D8E4FA" stroke-width="3"/>
+  <text x="496" y="228" fill="#1F3562" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">App Structure</text>
+  <text x="496" y="260" fill="#4A648C" font-family="Segoe UI, Arial, sans-serif" font-size="18">src/App.jsx</text>
+
+  <rect x="520" y="290" width="940" height="76" rx="18" fill="#EAF1FF" stroke="#C9D8FB" stroke-width="2"/>
+  <text x="556" y="336" fill="#1D3E8A" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">App()</text>
+
+  <rect x="560" y="402" width="860" height="84" rx="18" fill="#FFFFFF" stroke="#D8E3F8" stroke-width="2"/>
+  <text x="590" y="434" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Header</text>
+  <text x="590" y="460" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Logo + nav links: Home / About / Projects / Skills / Contact</text>
+
+  <rect x="560" y="516" width="860" height="264" rx="18" fill="#FFFFFF" stroke="#D8E3F8" stroke-width="2"/>
+  <text x="590" y="548" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Main</text>
+  <text x="590" y="574" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Sections rendered in this order</text>
+
+  <rect x="606" y="596" width="166" height="130" rx="18" fill="#F5F8FF" stroke="#D6E2FA" stroke-width="2"/>
+  <text x="632" y="630" fill="#23406E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">HeroSection</text>
+  <text x="624" y="662" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">heading</text>
+  <text x="624" y="686" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">buttons</text>
+  <text x="624" y="710" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">hero image</text>
+
+  <rect x="790" y="596" width="166" height="130" rx="18" fill="#F5F8FF" stroke="#D6E2FA" stroke-width="2"/>
+  <text x="810" y="630" fill="#23406E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AboutSection</text>
+  <text x="811" y="662" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">about text</text>
+  <text x="811" y="686" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">stats cards</text>
+
+  <rect x="974" y="596" width="166" height="130" rx="18" fill="#F5F8FF" stroke="#D6E2FA" stroke-width="2"/>
+  <text x="982" y="630" fill="#23406E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">ProjectsSection</text>
+  <text x="995" y="662" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">project cards</text>
+  <text x="995" y="686" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">stack tags</text>
+
+  <rect x="1158" y="596" width="166" height="130" rx="18" fill="#F5F8FF" stroke="#D6E2FA" stroke-width="2"/>
+  <text x="1173" y="630" fill="#23406E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">SkillsSection</text>
+  <text x="1180" y="662" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">skill cards</text>
+  <text x="1180" y="686" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">icons only</text>
+
+  <rect x="1342" y="596" width="166" height="130" rx="18" fill="#F5F8FF" stroke="#D6E2FA" stroke-width="2"/>
+  <text x="1350" y="630" fill="#23406E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">ContactSection</text>
+  <text x="1368" y="662" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">contact links</text>
+  <text x="1368" y="686" fill="#6D82A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">form UI</text>
+
+  <rect x="560" y="804" width="860" height="56" rx="18" fill="#FFFFFF" stroke="#D8E3F8" stroke-width="2"/>
+  <text x="590" y="840" fill="#233B69" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Footer</text>
+  <text x="690" y="840" fill="#7185A8" font-family="Segoe UI, Arial, sans-serif" font-size="17">copyright text</text>
+
+  <path d="M990 366V402" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M990 486V516" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M990 780V804" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+
+  <path d="M690 574V596" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M874 574V596" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M1058 574V596" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M1242 574V596" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+  <path d="M1426 574V596" stroke="#94A3B8" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrowGray)"/>
+
+  <path d="M364 327H520" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="402" y="314" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">imported into App</text>
+
+  <path d="M364 427C438 427 428 661 606 661" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="386" y="408" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">stats -&gt; AboutSection</text>
+
+  <path d="M364 527C450 527 420 661 790 661" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="386" y="510" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">projects -&gt; ProjectsSection</text>
+
+  <path d="M364 627C460 627 452 661 1158 661" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="386" y="612" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">skills -&gt; SkillsSection</text>
+
+  <path d="M364 727C462 727 468 661 1342 661" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="386" y="712" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">contacts -&gt; ContactSection</text>
+
+  <path d="M364 327C416 327 428 642 606 642" stroke="#4B6FD6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <text x="386" y="346" fill="#4B6FD6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">profile -&gt; HeroSection</text>
+
+  <rect x="82" y="878" width="1428" height="40" rx="12" fill="#F3F7FF" stroke="#D7E3FB" stroke-width="2"/>
+  <text x="108" y="904" fill="#5E769A" font-family="Segoe UI, Arial, sans-serif" font-size="17">Reading tip: left side is data, right side is UI. Blue arrows show props/data flow. Gray arrows show render hierarchy inside App.</text>
+</svg>
