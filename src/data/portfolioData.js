@@ -28,6 +28,7 @@ export const projects = [
       'A simple and intuitive task manager to add, edit, delete and mark tasks as completed.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     theme: 'todo',
+    liveUrl: 'https://vathana444.github.io/Todoapp/',
   },
   {
     name: 'Weather App',
