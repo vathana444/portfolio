@@ -35,6 +35,7 @@ export const projects = [
       'A weather application that shows current weather and a short forecast using a weather API.',
     stack: ['HTML', 'CSS', 'JavaScript', 'API'],
     theme: 'weather',
+    liveUrl: 'https://vathana444.github.io/weather/',
   },
 ]
 

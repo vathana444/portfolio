@@ -49,25 +49,39 @@ function ProjectsSection({ projects }) {
       <SectionTitle title="Featured Projects" />
 
       <div className="grid gap-5 lg:grid-cols-3">
-        {projects.map((project) => (
-          <article
-            key={project.name}
-            className="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-3 shadow-[0_18px_36px_rgba(2,6,23,0.28)] transition hover:-translate-y-1"
-          >
-            <ProjectPreview theme={project.theme} />
-            <div className="px-2 pb-2 pt-4">
-              <h3 className="text-lg font-bold text-[var(--color-title)]">{project.name}</h3>
-              <p className="mt-3 text-sm leading-6 text-[var(--color-muted)]">{project.description}</p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {project.stack.map((item) => (
-                  <span key={item} className="rounded-md bg-[var(--color-chip)] px-2 py-1 text-xs font-semibold text-[var(--color-accent)]">
-                    {item}
+        {projects.map((project) => {
+          const Card = project.liveUrl ? 'a' : 'article'
+
+          return (
+            <Card
+              key={project.name}
+              href={project.liveUrl}
+              target={project.liveUrl ? '_blank' : undefined}
+              rel={project.liveUrl ? 'noreferrer' : undefined}
+              className={`group block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-3 shadow-[0_18px_36px_rgba(2,6,23,0.28)] transition hover:-translate-y-1 ${
+                project.liveUrl ? 'cursor-pointer focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] focus:ring-offset-2 focus:ring-offset-[var(--color-surface)]' : ''
+              }`}
+            >
+              <ProjectPreview theme={project.theme} />
+              <div className="px-2 pb-2 pt-4">
+                <h3 className="text-lg font-bold text-[var(--color-title)]">{project.name}</h3>
+                <p className="mt-3 text-sm leading-6 text-[var(--color-muted)]">{project.description}</p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {project.stack.map((item) => (
+                    <span key={item} className="rounded-md bg-[var(--color-chip)] px-2 py-1 text-xs font-semibold text-[var(--color-accent)]">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+                {project.liveUrl && (
+                  <span className="mt-5 inline-flex items-center rounded-lg border border-[var(--color-accent)] px-4 py-2 text-sm font-semibold text-[var(--color-accent)] transition group-hover:bg-[var(--color-accent)] group-hover:text-slate-950">
+                    View Project
                   </span>
-                ))}
+                )}
               </div>
-            </div>
-          </article>
-        ))}
+            </Card>
+          )
+        })}
       </div>
     </section>
   )

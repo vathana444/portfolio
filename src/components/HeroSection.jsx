@@ -49,7 +49,7 @@ function HeroSection({ profile }) {
 
       <div className="overflow-hidden rounded-[2rem] border border-[var(--color-border)] bg-[rgba(15,23,42,0.82)] p-4 shadow-[0_24px_60px_rgba(2,6,23,0.36)] backdrop-blur-sm sm:p-5">
         <img
-          src="dist/image/adad48bf-e524-442c-8891-98e4a88bcac5.png"
+          src="/image/adad48bf-e524-442c-8891-98e4a88bcac5.png"
           alt="Developer working at a laptop desk"
           className="block w-full rounded-[1.5rem] bg-[var(--color-surface-alt)] object-cover"
         />
