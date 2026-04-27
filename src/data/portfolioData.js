@@ -8,7 +8,7 @@ export const profile = {
   github: 'https://github.com/vathana444',
   linkedin: 'https://www.linkedin.com/in/sin-many-vathana-065631406/',
   resumeLabel: 'Download CV',
-  resumeUrl: '/CV - Front-End Developer.pdf',
+  resumeUrl: '/CV - SInManyvathana.pdf',
 }
 
 export const stats = [
