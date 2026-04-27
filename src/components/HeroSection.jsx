@@ -18,7 +18,8 @@ function HeroSection({ profile }) {
             View Projects
           </a>
           <a
-            href={`mailto:${profile.email}`}
+            href={profile.resumeUrl}
+            download
             className="rounded-lg border border-[var(--color-accent)] px-5 py-3 text-sm font-semibold text-[var(--color-accent)] hover:bg-[var(--color-card-soft)]"
           >
             {profile.resumeLabel}
@@ -27,19 +28,22 @@ function HeroSection({ profile }) {
 
         <div className="mt-6 flex gap-3 text-[var(--color-title)]">
           <a
-            href="https://github.com/vathana193"
+            href={profile.github}
+            aria-label="GitHub"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-border)] text-sm hover:border-[var(--color-accent)]"
           >
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/alexdev"
+            href={profile.linkedin}
+            aria-label="LinkedIn"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-border)] text-sm hover:border-[var(--color-accent)]"
           >
             <FaLinkedinIn />
           </a>
           <a
             href={`mailto:${profile.email}`}
+            aria-label="Email"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-border)] text-sm hover:border-[var(--color-accent)]"
           >
             <FaEnvelope />

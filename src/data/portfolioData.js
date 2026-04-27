@@ -4,8 +4,11 @@ export const profile = {
   location: 'Phnom Penh, Cambodia',
   summary:
     'I build clean, responsive and user-friendly web interfaces. I am passionate about creating great user experiences and writing clean, maintainable code.',
-  email: 'alex.dev@example.com',
+  email: 'sinmanyvathana@gmail.com',
+  github: 'https://github.com/vathana444',
+  linkedin: 'https://www.linkedin.com/in/sin-many-vathana-065631406/',
   resumeLabel: 'Download CV',
+  resumeUrl: '/CV - Front-End Developer.pdf',
 }
 
 export const stats = [
