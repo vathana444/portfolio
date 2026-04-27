@@ -51,7 +51,7 @@ export const skills = [
 ]
 
 export const contacts = [
-  { icon: '@', label: 'Email', value: 'sin.manyvathana@example.com', href: 'mailto:sin.manyvathana@example.com' },
-  { icon: 'GH', label: 'GitHub', value: 'github.com/sinmanyvathana', href: 'https://github.com/vathana193' },
-  { icon: 'IN', label: 'LinkedIn', value: 'linkedin.com/in/sinmanyvathana', href: 'https://linkedin.com/in/sinmanyvathana' },
+  { icon: '@', label: 'Email', value: 'sinmanyvathana@gmail.com', href: 'mailto:sinmanyvathana@gmail.com' },
+  { icon: 'GH', label: 'GitHub', value: 'github.com/sinmanyvathana', href: 'https://github.com/vathana444' },
+  { icon: 'IN', label: 'LinkedIn', value: 'linkedin.com/in/sinmanyvathana', href: 'https://www.linkedin.com/in/sin-many-vathana-065631406/' },
 ]
